@@ -1,3 +1,18 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42;
+    --hero-background: #2E2F42;
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--text);
@@ -17,25 +32,15 @@ body {
     overflow: hidden;
 }
 
-/*--Colors */
-:root {
-    --primary-brand: #4D5AE5;
-    --pressed-state: #404BBF;
-    --dark: #2E2F42;
-    --success: #31D0AA;
-    --text: #434455;
-    --subtle-text: #8E8F99;
-    --accent: #E7E9FC;
-    --light: #F4F4FD;
-    --modal-overlay: #2E2F42;
-    --hero-background: #2E2F42;
-    --white-background: #FFFFFF;
-    --modal-background: #FCFCFC;
-}
+
 
 /**--скидання дефолтного підкреслення --*/
 .link {
-    text-decoration: none;
+    text-decoration:none;
+}
+
+.list {
+list-style: none
 }
 
 
@@ -57,17 +62,18 @@ ul {
 }
 
 /* Logo */
-.header-logo {
-    color: var(--dark) font-size: 18px;
-    font-family: Raleway;
+.header-logo link{
+    color: var(--primary-brand); 
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1, 17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .header-logo-accent {
-    color: #4D5AE5;
+    color:var(--modal-overlay);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -77,21 +83,21 @@ ul {
 }
 
 /* Menu Nav */
-.header-menu {
+.header-menu-list {
     color: var(--dark);
     background: var(--white-background);
 }
 
-.header-menu-item {
+.header-list {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.50;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     /* расположение по горизонтали добавить потом */
 }
 
 .header-menu-link link {
-    color: var(--dark);
+    color: var(--modal-overlay);
     font-size: 16px;
     font-family: Roboto;
     font-weight: 500;
@@ -103,6 +109,7 @@ ul {
 .header-menu-list link {
     color: var(--text);
     font-family: Roboto;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
