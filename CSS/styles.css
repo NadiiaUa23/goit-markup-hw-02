@@ -256,7 +256,7 @@ ul {
     font-weight: 800;
     line-height: 11.667;
     /* 21/18 */
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     /* 0.54/18 */
     text-transform: uppercase;
 
