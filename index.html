@@ -16,85 +16,74 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>goit-markup-hw-02</title>
 
 </head>
 
 <header class="header">
 
-    <nav class="header-navigation">
+    <nav class="nav-menu">
         <!-- Logo -->
-        <a href="./index.html" class="header-logo link"><span class="header-logo-accent">Web</span>Studio</a>
+        <a class="logo link" href="./index.html"><span>Web</span>Studio</a>
 
         <!-- Menu Nav-->
-        <ul class="header-menu">
-            <li class="header-menu-item"><a class="header-menu-link link" href="./index.html">Studio</a></li>
-            <li class="header-menu-item"><a class="header-menu-link link" href="./portfolio.html">Portfolio</a></li>
-            <li class="header-menu-item"><a class="header-menu-link link" href="">Contacts</a></li>
+        <ul class="menu-items">
+            <li><a class="link" href="./index.html">Studio</a></li>
+            <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="link" href="/">Contacts</a></li>
         </ul>
 
     </nav>
 
     <!-- Contact -->
-    <address class="Contact">
-        <ul class="Contact-menu-list">
-            <li class="Contact-list"><a class="header-menu-list link"
-                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="Contact-list"><a class="header-menu-list link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+    <addres class="contact-info link">
+        <ul class="contact-list">
+            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
         </ul>
-    </address>
+    </addres>
 
 </header>
 
 <main>
     <!-- секция 1 -->
-    <section class="hero">
-        <!--Заглав.  -->
+    <section class="hero-section">
+
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
 
-        <!-- Button Text-->
-        <button type="button" class="hero-btn">Order Service</button>
+        <button type="button" class="hero-button link">Order Service</button>
     </section>
 
     <!-- секция 2 -->
-    <section>
-        <!-- заголовок,он будет потом -->
-        <h2 class="visually-hidden">Lorem</h2>
+        <section>
+        <!-- Заголовок (будет скрыт) ?visually-? -->
+        <h2 hidden>Effective Solutions for Your Business</h2>
 
         <!-- Feature 1 -->
-        <ul class="featura-menu">
+        <ul class="feature-list">
             <li class="feature-item">
                 <h3 class="feature-subtitle">Strategy</h3>
-                <p class="feature-text">Our goal is to identify the business
-                    problem to walk away with the perfect and creative solution.
-                </p>
+                <p class="feature-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
             </li>
 
             <!-- Feature 2 -->
             <li class="feature-item">
                 <h3 class="feature-subtitle">Punctuality</h3>
-                <p class="feature-text">Bring the key message to the brand's audience for the best price within the
-                    shortest possible time.
-                </p>
+                <p class="feature-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
             </li>
 
             <!-- Feature 3 -->
             <li class="feature-item">
                 <h3 class="feature-subtitle">Diligence</h3>
-                <p class="feature-text">Research and confirm brands that present the strongest digital growth
-                    opportunities and minimize
-                    risk.
-                </p>
+                <p class="feature-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
             </li>
 
             <!-- Feature 4 -->
             <li class="feature-item">
                 <h3 class="feature-subtitle">Technologies</h3>
-                <p class="feature-text">Design practice focused on digital experiences. We bring forth a deep passion
-                    for problem-solving.
-                </p>
+                <p class="feature-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
             </li>
         </ul>
     </section>
@@ -117,37 +106,38 @@
     </section>
 
     <!-- секция 4 -->
-    <section class="fon-team">
+    <section class="team-section">
 
-        <h2 class="team-tite">Our Team</h2>
-        <!--Card Content  -->
-        <ul class="team-list>
+        <h2 class="team-title">Our Team</h2>
+
+        <!--Card Content 1  -->
+        <ul class="team-list">
          
             <li class="team-item">
-            <img src="./images/img.jpg" alt="Mark Guerrero" width="264" class="team-img"/>
-            <h3 class="team-neme">Mark Guerrero</h3>
-            <p class="team-text">Product Designer</p>
+            <img src="./images/img.jpg" alt="Mark Guerrero" width="264" class="team-image" />
+            <h3 class="team-name">Mark Guerrero</h3>
+            <p class="team-role">Product Designer</p>
             </li>
 
             <!-- Team Card 2 -->
             <li class="team-item">
-                <img src="./images/img(1).jpg" alt="Tom Ford" width="264" class="team-img"/>
-                <h3 class="team-neme">Tom Ford</h3>
-                <p class="team-text">Frontend Developer</p>
+                <img src="./images/img(1).jpg" alt="Tom Ford" width="264" class="team-image" />
+                <h3 class="team-name">Tom Ford</h3>
+                <p class="team-role">Frontend Developer</p>
             </li>
 
             <!-- Team Card 3 -->
             <li class="team-item">
-                <img src="./images/img(2).jpg" alt="Camila Garcia" width="264" class="team-img"/>
-                <h3 class="team-neme">Camila Garcia</h3>
-                <p class="team-text">Marketing</p>
+                <img src="./images/img(2).jpg" alt="Camila Garcia" width="264" class="team-image" />
+                <h3 class="team-name">Camila Garcia</h3>
+                <p class="team-role">Marketing</p>
             </li>
 
             <!-- Team Card 4 -->
             <li class="team-item">
-                <img src="./images/img(3).jpg" alt="Daniel Wilson" width="264" class="team-img"/>
-                <h3 class="team-neme">Daniel Wilson</h3>
-                <p class="team-text">UI Designer</p>
+                <img src="./images/img(3).jpg" alt="Daniel Wilson" width="264" class="team-image" />
+                <h3 class="team-name">Daniel Wilson</h3>
+                <p class="team-role">UI Designer</p>
             </li>
 
         </ul>
@@ -155,9 +145,11 @@
 </main>
 
 <footer class="footer">
-    <!-- Логотип -->
-    <a href="./index.html" class="footer-logo link"><span class="footer-logo-accent">Web</span>Studio</a>
+    <nav class="footer-nav-menu">
+        <!-- Logo -->
+        <a class="logo link" href="./index.html"><span>Web</span>Studio</a>
 
+    </nav>
 
     <p class="footer-text">Increase the flow of customers and
         sales for your business with digital
