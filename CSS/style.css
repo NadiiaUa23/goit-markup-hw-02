@@ -32,8 +32,10 @@ span {
     color: var(--primary-brand)
 }
 
+.hidden {
 
-
+    display: none;
+    }
 /**____________header_________________*/
 .header {
     background: var(--white-background);
