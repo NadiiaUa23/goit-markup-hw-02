@@ -79,7 +79,7 @@ span {
     font-weight: 400;
     line-height: 1.50;
     /* 24/16 */
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     /* 0.32/16 */
 }
 
