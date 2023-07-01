@@ -194,9 +194,9 @@ ul {
     text-transform: capitalize;
 }
 
-.what  {}
+/* .what  {} */
 
-.what-img {}
+/* .what-img {} */
 
 /*____________секция 4  ___________*/
 
@@ -222,7 +222,7 @@ ul {
     background-color: var(--white-background)
 }
 
-.team-item {}
+/* .team-item {} */
 
 .team-image {
     text-align: center;
@@ -328,7 +328,7 @@ ul {
 
 }
 
-.team-image link {}
+/* .team-image link {} */
 
 .exemplo-title {
     color: var(--dark);
