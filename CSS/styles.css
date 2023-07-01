@@ -42,7 +42,7 @@ ul {
     background-color: var(--white-background);
 }
 
-.nav-menu {}
+/* .nav-menu {} */
 
 .logo { 
     color: var(--primary-brand); 
@@ -61,9 +61,9 @@ ul {
     color: var(--dark);
 }
 
-.nav-menu  {
+/* .nav-menu  {} */
     
-}
+
 
 .nav-item {
     color: var(--dark);
