@@ -14,14 +14,15 @@
 }
 
 /**___________Повторяющее елементи____________ */
-    .body {
-        font-size: 16px;
-        font-family: "Roboto", sans-serif;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--text);
-        background-color: var(--white-background);
-      }
+.body {
+    color: var(--text);
+    background-color: var(--white-background);
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
 
 
 .link {
@@ -34,7 +35,7 @@ ul {
 
 .list {
     list-style: none;
-  }
+}
 
 
 /**____________header_________________*/
@@ -44,8 +45,8 @@ ul {
 
 /* .nav-menu {} */
 
-.logo { 
-    color: var(--primary-brand); 
+.logo {
+    color: var(--primary-brand);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -62,7 +63,7 @@ ul {
 }
 
 /* .nav-menu  {} */
-    
+
 
 
 .nav-item {
@@ -82,7 +83,7 @@ ul {
     font-style: normal;
 }
 
-.contact  {
+.contact {
     color: var(--text);
     text-transform: uppercase;
     font-size: 16px;
@@ -149,8 +150,7 @@ ul {
 /* ___________секция 2____________ */
 
 
-.feature {
-}
+.feature {}
 
 .feature-item {}
 
@@ -311,7 +311,7 @@ ul {
     line-height: 1.5;
     /* 24/16 */
     letter-spacing: 0.04em;
-    /* 0.64/16 */ 
+    /* 0.64/16 */
 }
 
 .nav-button-all:hover,
