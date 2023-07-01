@@ -15,10 +15,15 @@
 }
 
 /**___________Повторяющее елементи____________ */
-.body {
-    font-family: "Roboto", sans-serif;
-    color: var(--text);
-}
+    body {
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate, #434455);
+        background-color: var(--background, #fff);
+      }
+
 
 .link {
     text-decoration: none;
@@ -32,10 +37,10 @@ span {
     color: var(--primary-brand)
 }
 
-.hidden {
+.list {
+    list-style: none;
+  }
 
-    display: none;
-    }
 /**____________header_________________*/
 .header {
     background: var(--white-background);
