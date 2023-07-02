@@ -57,21 +57,6 @@ ul {
 
 /* .nav-menu  {} */
 
-
-
-.nav-item {
-    color: var(--dark);
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    /* 24/16 */
-    letter-spacing: 0.02em;
-    /* 0.32/16 */
-
-}
-
 .informacion {
     font-style: normal;
 }
@@ -251,16 +236,7 @@ ul {
 
 /*?___________кнопки на портфолио_________________________ */
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-  }
+
 
 .nav-button-all {
     font-family: "Roboto", sans-serif;
