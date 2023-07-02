@@ -206,10 +206,13 @@ ul {
 }
 
 /*?___________footer_________________________ */
-.footer {
+.lastpage {
     background-color: #2e2f42;
 }
 
+.lastpage-nav-menu {
+  
+}
 
 .logo-down {
     font-family: "Raleway", sans-serif;
@@ -220,6 +223,7 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+   
   }
 
 .logo-down-accent {
