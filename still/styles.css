@@ -2,26 +2,20 @@
     --primary-brand: #4D5AE5;
     --pressed-state: #404BBF;
     --dark: #2E2F42;
-    --success: #31D0AA;
     --text: #434455;
     --subtle-text: #8E8F99;
     --accent: #E7E9FC;
     --light: #F4F4FD;
-    --modal-overlay: #2E2F42;
     --hero-background: #2E2F42;
     --white-background: #FFFFFF;
-    --modal-background: #FCFCFC;
+ 
 }
 
 /**___________Повторяющее елементи____________ */
 .body {
+    font-family: "Roboto", sans-serif;
     color: var(--text);
     background-color: var(--white-background);
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
 }
 
 
@@ -222,7 +216,9 @@ ul {
     background-color: var(--white-background)
 }
 
-/* .team-item {} */
+.team-item {
+    background-color: var(--white-background);
+}
 
 .team-image {
     text-align: center;
@@ -302,16 +298,15 @@ ul {
 
 
 .nav-button-all {
-    color: var(--primary-brand);
-    background-color: var(--light);
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     /* 24/16 */
     letter-spacing: 0.04em;
     /* 0.64/16 */
+    color: var(--primary-brand);
+    background-color: var(--light);
 }
 
 .nav-button-all:hover,
