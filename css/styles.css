@@ -206,13 +206,11 @@ ul {
 }
 
 /*?___________footer_________________________ */
-.lastpage {
+.ftr {
     background-color: #2e2f42;
 }
 
-.lastpage-nav-menu {
-  
-}
+.ftr-nav-menu {}
 
 .logo-down {
     font-family: "Raleway", sans-serif;
@@ -223,24 +221,24 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-   
-  }
+}
+
+
 
 .logo-down-accent {
     color: #f4f4fd;
 }
 
 
-.footer-text {
+.ftr-text {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    color: #F4F4FD;
+    color: #f4f4fd;
     letter-spacing: 0.02em;
-}
-
+    }
 /* !____________Poptfolio____________________ */
 
 .Portfoliofon {
